@@ -1,0 +1,65 @@
+IF main_character THEN in_all_seasons && live_in_main_house
+IF strange THEN strange_voice
+IF strange THEN strange_style
+IF strange THEN strange_realationships
+IF strange THEN strange_name
+IF uknind THEN deceive
+IF uknind THEN rude
+IF NAME_Chandler_Bing THEN main_character && man && dark_hair && unknown_work && married && have_child && makes a lot of jokes
+IF NAME_Monica_Geller THEN main_character && woman && dark_hair && cooks_a_lot && likes_cleaning &&  have_child && love_work
+IF NAME_Rachel_Green THEN main_character&& woman && light_hair && love_fashion && love_work && have_child && have_sibling
+IF NAME_Phoebe_Buffay THEN main_character && woman && dark_hair && love_fashion && married && have_sibling
+IF NAME_Joey_Tribbiani THEN main_character && man && dark_hair && love_work && lot_of_womans && dumb
+IF NAME_Ross_Geller THEN man && dark_hair && love_work && lot_of_womans && have_child && loves_dinosaurs
+IF NAME_Ben_Geller THEN man && light_hair && not_main_character && connected_to_ross && unkind
+IF NAME_Janice THEN woman && dark_hair && not_main_character && chandlers_girlfriend && strange && unkind && dumb
+IF NAME_Guntherdite THEN man && not_main_character && light_hair && love_rachel && love_work && work_in_caffe && dumb
+IF NAME_Jack_Geller THEN man && dark_hair && not_main_character && unknown_work && have_child
+IF NAME_Judy_Geller THEN woman && dark_hair && unknown_work && have_child && not_main_character && unkind
+IF NAME_Carol THEN woman && light_hair && married && have_child && not_main_character && connected_to_Ross
+IF NAME_Suzan THEN woman && dark_hair && not_main_character && lesbian && unkind
+IF NAME_Ursula_Buffey THEN woman && light_hair && unkind && sibbing && not_main_character && strange && makes a lot of jokes
+IF NAME_Ugly_NakedGuy THEN man && nobody_seen_him && died && not_main_character
+IF NAME_Richard THEN man && dark_hair && not_main_character && love_work && loves_monika_in_first_seasons
+IF NAME_Frank_Buffay THEN man && dark_hair && sibbing && unknown_work && have_child && not_main_character
+IF NAME_Emily THEN woman && dar_hair && love_work && love_ross && not_main_character && strange && unkind
+IF NAME_Emma Geller-Green THEN children && woman && connected_to_ross && connected_to_rachel && not_first_seasons && not_main_character
+IF NAME_Mike THEN man && dark_hair  && not_main_character && unknown_work && husband && not_first_seasons
+IF NAME_Amy Green THEN woman && sibbing && light_hair && dumb && love_ross
+IF NAME_Charlie THEN woman && dark_hair && loves_dinosaurs && love_ross
+IF NAME_JackBing  THEN children && man && connected_to_chandler && connected_to_monika && not_first_seasons
+IF NAME_EricaBing THEN children && woman && connected_to_chandler && connected_to_monika && not_first_seasons
+
+IF NOT_has_lot_of_women && makes_a_lot_of_jokes && has_dark_hair THEN NAME_Chandler_Bing
+IF is_main_character && has_unknown_work && is_man THEN NAME_Chandler_Bing
+IF is_strong && has_short_hair THEN man
+IF has_facial_hair THEN man
+IF has_dark_hair && loves_Monika && is_main_character THEN NAME_Chandler_Bing
+IF is_main_character && makes_a_lot_of_jokes THEN NAME_Chandler_Bing
+
+IF is_woman && is_main_character && cook_a_lot THEN NAME_Monica_Geller
+IF is_main_character && loves_chandler THEN NAME_Monica_Geller
+
+
+E_Chandler
+IF THEN
+
+
+
+IF Ben_Geller       THEN man && light_hair && not_main_character && connected_to_ross && unkind
+IF Janice           THEN woman && dark_hair && not_main_character && chandlers_girlfriend && strange && unkind && dumb
+IF Guntherdite      THEN man && not_main_character && light_hair && love_rachel && love_work && work_in_caffe && dumb
+IF Jack_Geller      THEN man && dark_hair && not_main_character && unknown_work && have_child
+IF Judy_Geller      THEN woman && dark_hair && unknown_work && have_child && not_main_character && unkind
+IF Carol            THEN woman && light_hair && married && have_child && not_main_character && connected_to_Ross
+IF Suzan            THEN woman && dark_hair && not_main_character && lesbian && unkind
+IF Ursula_Buffey    THEN woman && light_hair && unkind && sibbing && not_main_character && strange && makes a lot of jokes
+IF Ugly_NakedGuy    THEN man && nobody_seen_him && died && not_main_character
+IF Richard          THEN man && dark_hair && not_main_character && love_work && loves_monika_in_first_seasons
+IF Frank_Buffay     THEN man && dark_hair && sibbing && unknown_work && have_child && not_main_character
+IF Emily            THEN woman && dar_hair && love_work && love_ross && not_main_character && strange && unkind
+IF Mike             THEN man && dark_hair  && not_main_character && unknown_work && husband && not_first_seasons
+IF Amy_Green        THEN woman && sibbing && light_hair && dumb && love_ross
+IF Charlie          THEN woman && dark_hair && loves_dinosaurs && love_ross
+IF Jack_Bing        THEN children && man && connected_to_chandler && connected_to_monika && not_first_seasons
+IF Erica_Bing       THEN children && woman && connected_to_chandler && connected_to_monika && not_first_seasons

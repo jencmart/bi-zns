@@ -1,0 +1,106 @@
+vaha_(v_g),mala,0,0,300,400
+vaha_(v_g),stredni,200,300,400,500
+vaha_(v_g),velka,300,400,600,600
+
+kvalita_zpracovani_(1_az_10),hrozna,0,0,3,4
+kvalita_zpracovani_(1_az_10),prumermna,2,4,5,7
+kvalita_zpracovani_(1_az_10),spickova,5,8,10,10
+
+kvalita_fotek_(1_az_10),brambora,0,0,2,3
+kvalita_fotek_(1_az_10),spatna,2,3,4,5
+kvalita_fotek_(1_az_10),prumerna,4,6,7,8
+kvalita_fotek_(1_az_10),perfektni,7,8,10,10
+
+velikost_ram_(v_MB),nedostatecna,0,0,200,600
+velikost_ram_(v_MB),prumerna,200,660,800,1000
+velikost_ram_(v_MB),nadprumerna,700,1400,2000,2000
+
+frekvence_CPU_(v_MHz),mala,0,0,200,500
+frekvence_CPU_(v_MHz),stredni,300,600,800,1000
+frekvence_CPU_(v_MHz),velka,800,1200,2400,2400
+
+{T
+Nokia_3510i
+Nokia_2216
+Nokia_11c
+Nokia_N53
+Huawei_Mate_20
+Huawei_Mate_10
+Asus_Zenphone_3
+Apple_iPhone_X
+Apple_iPhone_8
+Apple_iPhone_7
+Apple_iPhone_6
+Apple_iPhone_5c
+Apple_iPhone
+Apple_iPhone_XS
+Google_Pixel_3
+Google_Pixel_2
+}
+
+{R
+IF Apple_iPhone_7 THEN frekvence_CPU_(v_MHz)=stredni && velikost_ram_(v_MB)=prumerna
+IF Apple_iPhone_5c THEN kvalita_zpracovani_(1_az_10)=spickova && kvalita_fotek_(1_az_10)=perfektni
+IF Apple_iPhone THEN vaha_(v_g)=velka && kvalita_zpracovani_(1_az_10)=prumermna && kvalita_fotek_(1_az_10)=perfektni
+IF Nokia_2216 THEN velikost_ram_(v_MB)=nedostatecna && vaha_(v_g)=mala && kvalita_zpracovani_(1_az_10)=prumermna
+IF Google_Pixel_3 THEN velikost_ram_(v_MB)=nadprumerna && frekvence_CPU_(v_MHz)=stredni && kvalita_fotek_(1_az_10)=prumerna
+IF Apple_iPhone_X THEN velikost_ram_(v_MB)=prumerna && vaha_(v_g)=stredni && kvalita_zpracovani_(1_az_10)=spickova
+IF Google_Pixel_2 THEN kvalita_fotek_(1_az_10)=brambora && vaha_(v_g)=stredni
+IF Nokia_11c THEN kvalita_fotek_(1_az_10)=brambora && vaha_(v_g)=stredni
+IF Asus_Zenphone_3 THEN velikost_ram_(v_MB)=nedostatecna && frekvence_CPU_(v_MHz)=stredni
+IF Apple_iPhone_6 THEN vaha_(v_g)=velka && frekvence_CPU_(v_MHz)=mala && kvalita_fotek_(1_az_10)=perfektni
+IF Nokia_3510i THEN kvalita_fotek_(1_az_10)=prumerna && frekvence_CPU_(v_MHz)=mala
+IF Apple_iPhone_8 THEN frekvence_CPU_(v_MHz)=stredni && kvalita_zpracovani_(1_az_10)=hrozna && velikost_ram_(v_MB)=nedostatecna
+IF Apple_iPhone_XS THEN frekvence_CPU_(v_MHz)=mala && vaha_(v_g)=mala
+IF Huawei_Mate_20 THEN velikost_ram_(v_MB)=nedostatecna && kvalita_zpracovani_(1_az_10)=prumermna
+IF Nokia_N53 THEN vaha_(v_g)=stredni && kvalita_zpracovani_(1_az_10)=prumermna
+IF Huawei_Mate_10 THEN vaha_(v_g)=velka && kvalita_fotek_(1_az_10)=perfektni
+
+IF Apple_iPhone_7 THEN kvalita_zpracovani_(1_az_10)=prumermna && kvalita_fotek_(1_az_10)=spatna
+IF Apple_iPhone_5c THEN kvalita_fotek_(1_az_10)=prumerna && frekvence_CPU_(v_MHz)=velka && vaha_(v_g)=velka
+IF Apple_iPhone THEN kvalita_fotek_(1_az_10)=spatna && vaha_(v_g)=mala && velikost_ram_(v_MB)=nadprumerna
+IF Nokia_2216 THEN kvalita_fotek_(1_az_10)=perfektni && frekvence_CPU_(v_MHz)=velka && kvalita_zpracovani_(1_az_10)=spickova
+IF Google_Pixel_3 THEN frekvence_CPU_(v_MHz)=velka && kvalita_fotek_(1_az_10)=brambora && vaha_(v_g)=stredni
+IF Apple_iPhone_X THEN kvalita_fotek_(1_az_10)=spatna && vaha_(v_g)=stredni
+IF Google_Pixel_2 THEN velikost_ram_(v_MB)=prumerna && kvalita_fotek_(1_az_10)=brambora && frekvence_CPU_(v_MHz)=velka
+IF Nokia_11c THEN velikost_ram_(v_MB)=prumerna && kvalita_fotek_(1_az_10)=prumerna
+IF Asus_Zenphone_3 THEN kvalita_fotek_(1_az_10)=brambora && vaha_(v_g)=mala && kvalita_zpracovani_(1_az_10)=prumermna
+IF Apple_iPhone_6 THEN kvalita_zpracovani_(1_az_10)=hrozna && vaha_(v_g)=stredni
+IF Nokia_3510i THEN kvalita_fotek_(1_az_10)=brambora && frekvence_CPU_(v_MHz)=mala
+IF Apple_iPhone_8 THEN kvalita_fotek_(1_az_10)=prumerna && velikost_ram_(v_MB)=prumerna
+IF Apple_iPhone_XS THEN frekvence_CPU_(v_MHz)=stredni && kvalita_fotek_(1_az_10)=perfektni && vaha_(v_g)=mala
+IF Huawei_Mate_20 THEN vaha_(v_g)=mala && velikost_ram_(v_MB)=nadprumerna && kvalita_zpracovani_(1_az_10)=hrozna
+IF Nokia_N53 THEN velikost_ram_(v_MB)=prumerna && frekvence_CPU_(v_MHz)=stredni && kvalita_zpracovani_(1_az_10)=prumermna
+IF Huawei_Mate_10 THEN kvalita_zpracovani_(1_az_10)=spickova && velikost_ram_(v_MB)=prumerna && vaha_(v_g)=velka
+}
+
+
+
+// USE CASES
+
+// unknown
+0
+0
+0
+0
+0
+
+
+
+// Nokia 2216
+1234
+1234
+10
+10
+1234
+
+
+
+// iPhone Xs
+350
+300
+10
+6
+123
+
+

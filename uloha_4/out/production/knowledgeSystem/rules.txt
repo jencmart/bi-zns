@@ -1,0 +1,152 @@
+
+// mezivysledky
+
+{
+is_man#0.6
+is_woman#0.4
+}
+
+{
+is_main_character#0.7
+is_not_main_character#0.3
+}
+
+{
+is_strange#0.2
+is_not_strange#0.8
+}
+
+// terminaly
+
+{T
+
+Chandler_Bing#0.1
+Monica_Geller#0.1
+
+Ross_Geller#0.1
+Rachel_Green#0.1
+
+Joey_Tribbiani#0.2
+Phoebe_Buffay#0.1
+}
+
+// starting symbloy
+
+{S
+
+is_in_all_seasons
+lives_in_main_house
+has_strange_voice
+has_strange_style
+has_strange_realationships
+has_strange_name
+
+has_facial_hair
+is_physically_strong
+has_short_hair
+has_long_hair
+has_blond_hair
+has_big_breasts
+
+has_dark_hair
+makes_a_lot_of_jokes
+loves_Monika
+has_unknown_work
+
+has_hobby
+cooks_a_lot
+loves_Chandler
+loves_work
+has_long_hair
+
+has_lot_of_womans
+loves_dinosaurs
+loves_Rachel
+
+has_family
+loves_Ross
+
+loves_fashion
+has_child
+
+is_dumb
+loves_coffee
+hates_fashion
+is_married
+have_sibling
+
+}
+
+{R
+IF is_main_character THEN is_in_all_seasons#0.8 && lives_in_main_house#0.9
+IF is_not_main_character THEN is_in_all_seasons#0.2 && lives_in_main_house#0.1
+
+IF is_strange THEN has_strange_voice#0.5
+IF is_strange THEN has_strange_style#0.8
+IF is_strange THEN has_strange_realationships#0.3
+IF is_strange THEN has_strange_name#0.7
+
+IF is_not_strange THEN has_strange_voice#0.5
+IF is_not_strange THEN has_strange_style#0.2
+IF is_not_strange THEN has_strange_realationships#0.7
+IF is_not_strange THEN has_strange_name#0.3
+
+IF is_man THEN has_facial_hair#0.8
+IF is_man THEN is_physically_strong#0.7
+IF is_man THEN has_short_hair#0.6
+
+IF is_woman THEN has_facial_hair#0.2
+IF is_woman THEN is_physically_strong#0.3
+IF is_woman THEN has_short_hair#0.4
+
+
+IF is_woman THEN has_long_hair#0.6
+IF is_woman THEN has_blond_hair#0.7
+IF is_woman THEN has_big_breasts#0.4
+
+IF is_man THEN has_long_hair#0.4
+IF is_man THEN has_blond_hair#0.3
+IF is_man THEN has_big_breasts#0.6
+
+// Chandler
+
+IF Chandler_Bing    THEN is_main_character#0.2 && has_dark_hair#0.3 && makes_a_lot_of_jokes#0.3
+IF Chandler_Bing    THEN is_main_character#0.2 && has_dark_hair#0.3 && loves_Monika#0.7
+IF Chandler_Bing    THEN is_main_character#0.2 && has_dark_hair#0.3 && loves_Monika#0.7 && is_man#0.3
+IF Chandler_Bing    THEN is_main_character#0.2 && has_unknown_work#0.2 && is_man#0.3
+
+// Monica
+IF Monica_Geller    THEN is_main_character#0.2 && has_hobby#0.3 && cooks_a_lot#0.8 && is_woman#0.3
+IF Monica_Geller    THEN is_main_character#0.2 && loves_Chandler#0.8
+IF Monica_Geller    THEN is_main_character#0.2 && loves_work#0.5 && has_long_hair#0.7
+
+IF Monica_Geller    THEN has_dark_hair#0.1 && makes_a_lot_of_jokes#0.1 && loves_Monika#0.01 && is_man#0.0
+
+// Ross
+IF Ross_Geller      THEN is_main_character#0.2 && is_man#0.5 && loves_work#0.6 && has_lot_of_womans#0.6
+IF Ross_Geller      THEN is_main_character#0.7 && loves_dinosaurs#0.9
+IF Ross_Geller      THEN loves_Rachel#0.8 && has_short_hair#0.6
+
+IF Ross_Geller	    THEN has_dark_hair#0.1 && makes_a_lot_of_jokes#0.1 && loves_Monika#0.01 
+
+//Rachel
+IF Rachel_Green     THEN is_main_character#0.2 && is_woman#0.3 && has_blond_hair#0.7
+IF Rachel_Green     THEN is_main_character#0.2 && loves_Ross#0.6 && has_family#0.4
+IF Rachel_Green     THEN is_main_character#0.2 && loves_fashion#0.6
+IF Rachel_Green     THEN is_main_character#0.2 && has_child#0.2
+
+IF Rachel_Green 	THEN has_dark_hair#0.1 && makes_a_lot_of_jokes#0.1 && loves_Monika#0.01 && is_man#0.0
+
+//Joey
+IF Joey_Tribbiani   THEN is_main_character#0.2 && is_man#0.5 && has_dark_hair#0.6 && loves_work#0.5
+IF Joey_Tribbiani   THEN has_lot_of_womans#0.6 && is_dumb#0.9
+IF Joey_Tribbiani   THEN is_main_character#0.2 && has_lot_of_womans#0.6
+
+//Phoebe
+IF Phoebe_Buffay    THEN is_main_character#0.2 && is_woman#0.4 && has_dark_hair#0.8
+IF Phoebe_Buffay    THEN loves_coffee#0.7 && hates_fashion#0.6 && is_married#0.4 && have_sibling#0.7
+IF Phoebe_Buffay    THEN is_main_character#0.2 && is_strange#0.7
+IF Phoebe_Buffay    THEN is_main_character#0.2 && has_blond_hair#0.7
+IF Phoebe_Buffay    THEN is_main_character#0.2 && is_strange#0.7
+
+}

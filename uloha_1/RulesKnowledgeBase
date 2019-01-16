@@ -1,0 +1,31 @@
+IF main_character THEN in_all_seasons && live_in_main_house
+IF strange THEN strange_voice 
+IF strange THEN strange_style
+IF strange THEN strange_realationships
+IF strange THEN strange_name
+IF uknind THEN deceive
+IF uknind THEN rude
+IF ChandlerBing THEN main_character && man && dark_hair && unknown_work && married && have_child
+IF MonicaGellerTHEN main_character && woman && dark_hair && cooks_a_lot && likes_cleaning &&  have_child && love_work
+IF RachelGreen THEN main_character&& woman && light_hair && love_fashion && love_work && have_child && have_sibling
+IF PhoebeBuffay THEN main_character && woman && dark_hair && love_fashion && married && have_sibling
+IF JoeyTribbiani THEN main_character && man && dark_hair && love_work && lot_of_womans && dumb
+IF RossGeller THEN man && dark_hair && love_work && lot_of_womans && have_child && loves_dinosaurs
+IF BenGeller THEN man && light_hair && not_main_character && connected_to_ross && unkind
+IF Janice THEN woman && dark_hair && not_main_character && chandlers_girlfriend && strange && unkind
+IF Guntherdite THEN man && not_main_character && light_hair && love_rachel && love_work && work_in_caffe
+IF JackGeller THEN man && dark_hair && not_main_character && unknown_work && have_child 
+IF JudyGeller THEN woman && dark_hair && unknown_work && have_child && not_main_character && unkind
+IF Carol THEN woman && light_hair && married && have_child && not_main_character && connected_to_Ross
+IF Suzan TEHN woman && dark_hair && not_main_character && lesbian && unkind
+IF UrsulaBuffey THEN woman && light_hair && unkind && sibbing && not_main_character && strange
+IF UglyNakedGuy THEN man && nobody_seen_him && died && not_main_character
+IF Richard THEN man && dark_hair && not_main_character && love_work && loves_monika_in_first_seasons
+IF FrankBuffay THEN man && dark_hair && sibbing && unknown_work && have_child && not_main_character
+IF Emily THEN woman && dar_hair && love_work && love_ross && not_main_character && strange && unkind
+IF Emma Geller-Green THEN children && woman && connected_to_ross && connected_to_rachel && not_first_seasons && not_main_character
+IF Mike THEN man && dark_hair  && not_main_character && unknown_work && husband && not_first_seasons
+IF Amy Green THEN woman && sibbing && light_hair && dumb && love_ross && not_main_character && not_first_seasons
+IF Charlie THEN woman && dark_hair && loves_dinosaurs && love_ross
+IF JackBing  THEN children && man && connected_to_chandler && connected_to_monika && not_first_seasons
+IF EricaBing THEB children && man && connected_to_chandler && connected_to_monika && not_first_seasons

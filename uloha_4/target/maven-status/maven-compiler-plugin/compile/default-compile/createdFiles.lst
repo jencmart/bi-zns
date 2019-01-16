@@ -1,0 +1,9 @@
+cvut/jencmart/Formula.class
+cvut/jencmart/KnowledgeBase.class
+cvut/jencmart/FileParser.class
+cvut/jencmart/Variable.class
+cvut/jencmart/Main.class
+cvut/jencmart/InferenceEngine.class
+cvut/jencmart/Rule.class
+cvut/jencmart/UserInterface.class
+cvut/jencmart/ActionException.class
